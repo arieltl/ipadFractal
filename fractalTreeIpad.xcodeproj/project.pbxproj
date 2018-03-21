@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40C677C68F7E5CC287165ACA /* Pods_fractalTreeIpad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A5FBB9592796BE5B49607C /* Pods_fractalTreeIpad.framework */; };
+		9498597D206194F200EB5EF3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9498597C206194F200EB5EF3 /* SettingsViewController.swift */; };
+		9498597F2061959D00EB5EF3 /* classes and extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9498597E2061959D00EB5EF3 /* classes and extensions.swift */; };
 		94FE1BBF2056A4E100370E17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE1BBE2056A4E100370E17 /* AppDelegate.swift */; };
 		94FE1BC12056A4E100370E17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE1BC02056A4E100370E17 /* ViewController.swift */; };
 		94FE1BC42056A4E100370E17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94FE1BC22056A4E100370E17 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		71A5FBB9592796BE5B49607C /* Pods_fractalTreeIpad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fractalTreeIpad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9498597C206194F200EB5EF3 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		9498597E2061959D00EB5EF3 /* classes and extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "classes and extensions.swift"; sourceTree = "<group>"; };
 		94FE1BBB2056A4E100370E17 /* fractalTreeIpad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fractalTreeIpad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94FE1BBE2056A4E100370E17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94FE1BC02056A4E100370E17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,8 @@
 		94FE1BC52056A4E100370E17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94FE1BC82056A4E100370E17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94FE1BCA2056A4E100370E17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C8CC6446CFBC408CC144B78 /* Pods-fractalTreeIpad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fractalTreeIpad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fractalTreeIpad/Pods-fractalTreeIpad.debug.xcconfig"; sourceTree = "<group>"; };
+		E9A9BE2CC876E3BA52B52950 /* Pods-fractalTreeIpad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fractalTreeIpad.release.xcconfig"; path = "Pods/Target Support Files/Pods-fractalTreeIpad/Pods-fractalTreeIpad.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40C677C68F7E5CC287165ACA /* Pods_fractalTreeIpad.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4532EFC0CB975BE941806FE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71A5FBB9592796BE5B49607C /* Pods_fractalTreeIpad.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BAAF9FCE6DEC4D4C2402A01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C8CC6446CFBC408CC144B78 /* Pods-fractalTreeIpad.debug.xcconfig */,
+				E9A9BE2CC876E3BA52B52950 /* Pods-fractalTreeIpad.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		94FE1BB22056A4E100370E17 = {
 			isa = PBXGroup;
 			children = (
 				94FE1BBD2056A4E100370E17 /* fractalTreeIpad */,
 				94FE1BBC2056A4E100370E17 /* Products */,
+				8BAAF9FCE6DEC4D4C2402A01 /* Pods */,
+				4532EFC0CB975BE941806FE7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,8 +83,10 @@
 			isa = PBXGroup;
 			children = (
 				94FE1BBE2056A4E100370E17 /* AppDelegate.swift */,
-				94FE1BC02056A4E100370E17 /* ViewController.swift */,
 				94FE1BC22056A4E100370E17 /* Main.storyboard */,
+				9498597C206194F200EB5EF3 /* SettingsViewController.swift */,
+				94FE1BC02056A4E100370E17 /* ViewController.swift */,
+				9498597E2061959D00EB5EF3 /* classes and extensions.swift */,
 				94FE1BC52056A4E100370E17 /* Assets.xcassets */,
 				94FE1BC72056A4E100370E17 /* LaunchScreen.storyboard */,
 				94FE1BCA2056A4E100370E17 /* Info.plist */,
@@ -71,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94FE1BCD2056A4E100370E17 /* Build configuration list for PBXNativeTarget "fractalTreeIpad" */;
 			buildPhases = (
+				D4799BA7CD6DA38B7204DB62 /* [CP] Check Pods Manifest.lock */,
 				94FE1BB72056A4E100370E17 /* Sources */,
 				94FE1BB82056A4E100370E17 /* Frameworks */,
 				94FE1BB92056A4E100370E17 /* Resources */,
+				C476A4918B711F6E43C27C07 /* [CP] Embed Pods Frameworks */,
+				4FC789305F6C90260F959588 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +164,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4FC789305F6C90260F959588 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fractalTreeIpad/Pods-fractalTreeIpad-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C476A4918B711F6E43C27C07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-fractalTreeIpad/Pods-fractalTreeIpad-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChromaColorPicker/ChromaColorPicker.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChromaColorPicker.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fractalTreeIpad/Pods-fractalTreeIpad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4799BA7CD6DA38B7204DB62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fractalTreeIpad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		94FE1BB72056A4E100370E17 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9498597F2061959D00EB5EF3 /* classes and extensions.swift in Sources */,
 				94FE1BC12056A4E100370E17 /* ViewController.swift in Sources */,
 				94FE1BBF2056A4E100370E17 /* AppDelegate.swift in Sources */,
+				9498597D206194F200EB5EF3 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,9 +361,11 @@
 		};
 		94FE1BCE2056A4E100370E17 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C8CC6446CFBC408CC144B78 /* Pods-fractalTreeIpad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F32T5Z2RC3;
 				INFOPLIST_FILE = fractalTreeIpad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ariel.fractalTreeIpad;
@@ -286,9 +377,11 @@
 		};
 		94FE1BCF2056A4E100370E17 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9A9BE2CC876E3BA52B52950 /* Pods-fractalTreeIpad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F32T5Z2RC3;
 				INFOPLIST_FILE = fractalTreeIpad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ariel.fractalTreeIpad;
