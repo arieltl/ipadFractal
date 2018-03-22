@@ -10,8 +10,7 @@
 #endif
 #endif
 
-#import "ChromaColorPicker.h"
 
-FOUNDATION_EXPORT double ChromaColorPickerVersionNumber;
-FOUNDATION_EXPORT const unsigned char ChromaColorPickerVersionString[];
+FOUNDATION_EXPORT double SwiftyButtonVersionNumber;
+FOUNDATION_EXPORT const unsigned char SwiftyButtonVersionString[];
 

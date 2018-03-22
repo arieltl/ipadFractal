@@ -7,10 +7,10 @@
 //
 
 import UIKit
-
 class LabeledSlider : UISlider {
     var label : UILabel?
-   
+
+    
     
 }
 

@@ -7,12 +7,14 @@
 //
 
 import UIKit
-
+import SwiftyButton
 class SettingsViewController: UIViewController {
     
     
     @IBOutlet var labelCollection: [UILabel]!
     @IBOutlet var sliderCollection: [LabeledSlider]!
+  
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +26,7 @@ class SettingsViewController: UIViewController {
                 value = String(describing: Int(Float(value)!))
             }
             slider.label?.text = value
+          
         }
     }
     

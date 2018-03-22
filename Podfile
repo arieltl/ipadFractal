@@ -8,5 +8,5 @@ target 'fractalTreeIpad' do
   use_frameworks!
 
   # Pods for fractalTreeIpad
-pod 'ChromaColorPicker'
+pod 'SwiftyButton'
 end

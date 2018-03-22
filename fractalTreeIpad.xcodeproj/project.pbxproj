@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		40C677C68F7E5CC287165ACA /* Pods_fractalTreeIpad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A5FBB9592796BE5B49607C /* Pods_fractalTreeIpad.framework */; };
+		7363FC932063437300B18190 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7363FC922063437200B18190 /* extension.swift */; };
 		9498597D206194F200EB5EF3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9498597C206194F200EB5EF3 /* SettingsViewController.swift */; };
 		9498597F2061959D00EB5EF3 /* classes and extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9498597E2061959D00EB5EF3 /* classes and extensions.swift */; };
 		94FE1BBF2056A4E100370E17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE1BBE2056A4E100370E17 /* AppDelegate.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		71A5FBB9592796BE5B49607C /* Pods_fractalTreeIpad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fractalTreeIpad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7363FC922063437200B18190 /* extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
 		9498597C206194F200EB5EF3 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		9498597E2061959D00EB5EF3 /* classes and extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "classes and extensions.swift"; sourceTree = "<group>"; };
 		94FE1BBB2056A4E100370E17 /* fractalTreeIpad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fractalTreeIpad.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +89,7 @@
 				9498597C206194F200EB5EF3 /* SettingsViewController.swift */,
 				94FE1BC02056A4E100370E17 /* ViewController.swift */,
 				9498597E2061959D00EB5EF3 /* classes and extensions.swift */,
+				7363FC922063437200B18190 /* extension.swift */,
 				94FE1BC52056A4E100370E17 /* Assets.xcassets */,
 				94FE1BC72056A4E100370E17 /* LaunchScreen.storyboard */,
 				94FE1BCA2056A4E100370E17 /* Info.plist */,
@@ -187,11 +190,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-fractalTreeIpad/Pods-fractalTreeIpad-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ChromaColorPicker/ChromaColorPicker.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyButton/SwiftyButton.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChromaColorPicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyButton.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -226,6 +229,7 @@
 				9498597F2061959D00EB5EF3 /* classes and extensions.swift in Sources */,
 				94FE1BC12056A4E100370E17 /* ViewController.swift in Sources */,
 				94FE1BBF2056A4E100370E17 /* AppDelegate.swift in Sources */,
+				7363FC932063437300B18190 /* extension.swift in Sources */,
 				9498597D206194F200EB5EF3 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

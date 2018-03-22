@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '32753E520E8C3191A640B6A27CF6F331'
+               BlueprintIdentifier = '9135901B6143CF226320BCC9058E895D'
                BlueprintName = 'Pods-fractalTreeIpad'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods-fractalTreeIpad.framework'>

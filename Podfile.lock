@@ -1,12 +1,12 @@
 PODS:
-  - ChromaColorPicker (1.7)
+  - SwiftyButton (0.8.0)
 
 DEPENDENCIES:
-  - ChromaColorPicker
+  - SwiftyButton
 
 SPEC CHECKSUMS:
-  ChromaColorPicker: 33efa67b17cca51dd253689d18b83ac7e05642c2
+  SwiftyButton: 093e3fe2becf3ae31c0f6c1c6987b79a93fb3ecb
 
-PODFILE CHECKSUM: 30bf6c1809b8bebfe50e0a5af275a433fc0094c0
+PODFILE CHECKSUM: 57a1e2cd654d551868919243b6608e3765a6f9bb
 
 COCOAPODS: 1.4.0

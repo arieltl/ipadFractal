@@ -7,81 +7,92 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E96B05B712D245D85DC3D2CAE4FF616 /* Pods-fractalTreeIpad-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B3BA21A08775EA2215A65615EB4453 /* Pods-fractalTreeIpad-dummy.m */; };
-		2CCA81B9BFAFFA78C63594B01881EAE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		2CD7BD2F25A728501BCA2B2226271982 /* ChromaColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01D916C83567E315231B4CB798F2A64A /* ChromaColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F6CDE3B2BA4DA36386508A448EB8C1D /* ChromaColorPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = A6D6A1BD58242CD949CB26178E4330C3 /* ChromaColorPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		40035A7E409B83DCFF7FEB781C2EED00 /* ChromaColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA92F33DFC6DF17B823161597138EF4E /* ChromaColorPicker-dummy.m */; };
-		46BE6075A78FD94B44FA92245C2486A4 /* ChromaAddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B50FCFF3172B4E414E373AD2FE5F123 /* ChromaAddButton.swift */; };
-		8C81A1CEF8720A2EEE2BE86779865157 /* UIColor+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5537ADCF7F1457591909101ADAD892 /* UIColor+Utilities.swift */; };
-		92F8161F4E07A53E57E3EB2E1FA62238 /* ColorModeToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B5C20A3E55114781399719932124A /* ColorModeToggleButton.swift */; };
-		CF264CDB3100B4C274326F95F32BC88B /* ChromaColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247653E98560502BAE1E1C8FC66EBCA5 /* ChromaColorPicker.swift */; };
-		EB82E7DA872E98A1B0B1F66C7CE15702 /* ChromaHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AA62CF1621F2291E9E8BCBC00ACF1B /* ChromaHandle.swift */; };
-		EC5A224A33CEE7D59513FCAAA9B37EFB /* Pods-fractalTreeIpad-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CD486854E93944DA1B67E78F1A09A5B /* Pods-fractalTreeIpad-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F974E05373C11654A32279CEF758F824 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		FB24018F9DFDC79925597D4878E12FD4 /* ChromaShadeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E73A28BF3FEF50764DDD75A8CDC44B /* ChromaShadeSlider.swift */; };
+		14CB2C8D3B9BBC2CB3F762C852A49544 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		23DD8666E83365F85B06C52CA6BABF7A /* SwiftyButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C146CE4E0F1E50E58AD20BBB0028852A /* SwiftyButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2ABD913E9E71C0B2B985A7583B778E12 /* SwiftyButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B413DD2ABEB346FBDBA1968428E2321 /* SwiftyButton-dummy.m */; };
+		486DE053366E633BBE11C9B8AAECDBB5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38D8F9AC8F20043ED61C73A93968736 /* Utils.swift */; };
+		918BAD34B52EB6D6A203F312C8B50E0E /* Pods-fractalTreeIpad-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B3BA21A08775EA2215A65615EB4453 /* Pods-fractalTreeIpad-dummy.m */; };
+		9251AB3B7CBC8848C3865EEA80C13E77 /* PressableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242944BE6DF3E7E07DC9B44D47CA6DB4 /* PressableButton.swift */; };
+		ACD6B2BC4E7F6CCDF559E75DBAEE710B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		E3C1687E7E28EE2D99C6AEF0BA75C556 /* Pods-fractalTreeIpad-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CD486854E93944DA1B67E78F1A09A5B /* Pods-fractalTreeIpad-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8E606F26C2DED47643D39F936B63C00 /* CustomPressableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5674BA5687974355A92026CA50B925D9 /* CustomPressableButton.swift */; };
+		EA40928A3ADF8CE87A7ACDC7F617A21C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		F00498AB8F5508CF3C1AA76588D13260 /* FlatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DDC81025868EB2BCFE5B688D31DBE2 /* FlatButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1B45C9A0DDAA49235DAAD8A664F5DE3F /* PBXContainerItemProxy */ = {
+		A19C57BFA9E97ACDF2A84FB876CB9C8A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 99AA48135ECB557858428F797600458F;
-			remoteInfo = ChromaColorPicker;
+			remoteGlobalIDString = 9BF6E1FF2E5C773CAAFE45520AF622D1;
+			remoteInfo = SwiftyButton;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01D916C83567E315231B4CB798F2A64A /* ChromaColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChromaColorPicker-umbrella.h"; sourceTree = "<group>"; };
 		07B46B296DFD7047D60260FC886F29DE /* Pods-fractalTreeIpad-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-fractalTreeIpad-acknowledgements.plist"; sourceTree = "<group>"; };
-		1A2B5C20A3E55114781399719932124A /* ColorModeToggleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorModeToggleButton.swift; path = ChromaColorPicker/ColorModeToggleButton.swift; sourceTree = "<group>"; };
 		1C084F900D4C18A0673566FD55ED1274 /* Pods-fractalTreeIpad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fractalTreeIpad.release.xcconfig"; sourceTree = "<group>"; };
-		247653E98560502BAE1E1C8FC66EBCA5 /* ChromaColorPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChromaColorPicker.swift; path = ChromaColorPicker/ChromaColorPicker.swift; sourceTree = "<group>"; };
+		20DDC81025868EB2BCFE5B688D31DBE2 /* FlatButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlatButton.swift; path = SwiftyButton/FlatButton.swift; sourceTree = "<group>"; };
+		242944BE6DF3E7E07DC9B44D47CA6DB4 /* PressableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PressableButton.swift; path = SwiftyButton/PressableButton.swift; sourceTree = "<group>"; };
 		2CD486854E93944DA1B67E78F1A09A5B /* Pods-fractalTreeIpad-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-fractalTreeIpad-umbrella.h"; sourceTree = "<group>"; };
-		3A5537ADCF7F1457591909101ADAD892 /* UIColor+Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Utilities.swift"; path = "ChromaColorPicker/UIColor+Utilities.swift"; sourceTree = "<group>"; };
 		3BCDF0128CF4491E8DADBB5177D56222 /* Pods-fractalTreeIpad-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-fractalTreeIpad-frameworks.sh"; sourceTree = "<group>"; };
-		46CE58234D42023BB4911AA51E785F30 /* ChromaColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ChromaColorPicker.framework; path = ChromaColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		459835886BFACCE93922DA459AD9BF78 /* SwiftyButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyButton-prefix.pch"; sourceTree = "<group>"; };
 		495FCD2243D9E16A92C3CC0DB6AF087B /* Pods-fractalTreeIpad.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-fractalTreeIpad.modulemap"; sourceTree = "<group>"; };
 		4C046FBA404AA4C63CCEB359F5C5FF09 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EC0841BDA17ED26926926C29C227B33 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5674BA5687974355A92026CA50B925D9 /* CustomPressableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomPressableButton.swift; path = SwiftyButton/CustomPressableButton.swift; sourceTree = "<group>"; };
 		5A196B1C3113DED7F40BD93032AD9E7F /* Pods-fractalTreeIpad-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-fractalTreeIpad-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6B50FCFF3172B4E414E373AD2FE5F123 /* ChromaAddButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChromaAddButton.swift; path = ChromaColorPicker/ChromaAddButton.swift; sourceTree = "<group>"; };
-		8F327382D5C19717F072D601772ACB59 /* Pods_fractalTreeIpad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_fractalTreeIpad.framework; path = "Pods-fractalTreeIpad.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		91AA62CF1621F2291E9E8BCBC00ACF1B /* ChromaHandle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChromaHandle.swift; path = ChromaColorPicker/ChromaHandle.swift; sourceTree = "<group>"; };
+		6FEE53634CBAB22F4BA42FBFE3BBAC9F /* Pods_fractalTreeIpad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_fractalTreeIpad.framework; path = "Pods-fractalTreeIpad.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		860C289DAC80205BBE60F9FDD3C6C351 /* SwiftyButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyButton.framework; path = SwiftyButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B413DD2ABEB346FBDBA1968428E2321 /* SwiftyButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyButton-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9B6C87335793D4300467CAA9E2434111 /* Pods-fractalTreeIpad-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-fractalTreeIpad-resources.sh"; sourceTree = "<group>"; };
-		A0D94053508D5642721C6E67B7A3453E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A21CD772EDC8CC93A011BC5D447476E3 /* ChromaColorPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChromaColorPicker.xcconfig; sourceTree = "<group>"; };
-		A6D6A1BD58242CD949CB26178E4330C3 /* ChromaColorPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChromaColorPicker.h; path = ChromaColorPicker/ChromaColorPicker.h; sourceTree = "<group>"; };
 		A7062B694FD195E4E7511EEFDCD4D611 /* Pods-fractalTreeIpad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fractalTreeIpad.debug.xcconfig"; sourceTree = "<group>"; };
-		B347D8A3C3157F850CC82E4C27252281 /* ChromaColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ChromaColorPicker.modulemap; sourceTree = "<group>"; };
-		BA92F33DFC6DF17B823161597138EF4E /* ChromaColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChromaColorPicker-dummy.m"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C146CE4E0F1E50E58AD20BBB0028852A /* SwiftyButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyButton-umbrella.h"; sourceTree = "<group>"; };
+		C32D2E916AFF74D75857FC80189DC21A /* SwiftyButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyButton.xcconfig; sourceTree = "<group>"; };
+		C38D8F9AC8F20043ED61C73A93968736 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = SwiftyButton/Utils.swift; sourceTree = "<group>"; };
+		CE4ECAD61D3C04D55CFA8417B2644E2D /* SwiftyButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyButton.modulemap; sourceTree = "<group>"; };
 		D1B3BA21A08775EA2215A65615EB4453 /* Pods-fractalTreeIpad-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-fractalTreeIpad-dummy.m"; sourceTree = "<group>"; };
-		D8E73A28BF3FEF50764DDD75A8CDC44B /* ChromaShadeSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChromaShadeSlider.swift; path = ChromaColorPicker/ChromaShadeSlider.swift; sourceTree = "<group>"; };
-		DB607B19D826E3C9C80523B3CFE58A51 /* ChromaColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChromaColorPicker-prefix.pch"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0099179A40B6668BD4CD0675B3DE3D0C /* Frameworks */ = {
+		3303BB5038AD108F232CC9A0F3FD1CD3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F974E05373C11654A32279CEF758F824 /* Foundation.framework in Frameworks */,
+				EA40928A3ADF8CE87A7ACDC7F617A21C /* Foundation.framework in Frameworks */,
+				14CB2C8D3B9BBC2CB3F762C852A49544 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4C778F22C161741FB18E99032D63B84 /* Frameworks */ = {
+		80953151C71DDE2B6516300BCB49C43D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CCA81B9BFAFFA78C63594B01881EAE9 /* Foundation.framework in Frameworks */,
+				ACD6B2BC4E7F6CCDF559E75DBAEE710B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B9939530A6D1908FD556FD9B6D5BF5B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EC0841BDA17ED26926926C29C227B33 /* Info.plist */,
+				CE4ECAD61D3C04D55CFA8417B2644E2D /* SwiftyButton.modulemap */,
+				C32D2E916AFF74D75857FC80189DC21A /* SwiftyButton.xcconfig */,
+				8B413DD2ABEB346FBDBA1968428E2321 /* SwiftyButton-dummy.m */,
+				459835886BFACCE93922DA459AD9BF78 /* SwiftyButton-prefix.pch */,
+				C146CE4E0F1E50E58AD20BBB0028852A /* SwiftyButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyButton";
+			sourceTree = "<group>";
+		};
 		272965AD359D07835DB301481B625A5D /* Pods-fractalTreeIpad */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,60 +111,38 @@
 			path = "Target Support Files/Pods-fractalTreeIpad";
 			sourceTree = "<group>";
 		};
-		46FCBED1B16875636E8224C0190D94BA /* Products */ = {
+		40A9785EEB3D5547931497F1118CE0C7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				46CE58234D42023BB4911AA51E785F30 /* ChromaColorPicker.framework */,
-				8F327382D5C19717F072D601772ACB59 /* Pods_fractalTreeIpad.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		479A97DD6AC47ABE9BD1BDDCFE7CBD67 /* ChromaColorPicker */ = {
-			isa = PBXGroup;
-			children = (
-				6B50FCFF3172B4E414E373AD2FE5F123 /* ChromaAddButton.swift */,
-				A6D6A1BD58242CD949CB26178E4330C3 /* ChromaColorPicker.h */,
-				247653E98560502BAE1E1C8FC66EBCA5 /* ChromaColorPicker.swift */,
-				91AA62CF1621F2291E9E8BCBC00ACF1B /* ChromaHandle.swift */,
-				D8E73A28BF3FEF50764DDD75A8CDC44B /* ChromaShadeSlider.swift */,
-				1A2B5C20A3E55114781399719932124A /* ColorModeToggleButton.swift */,
-				3A5537ADCF7F1457591909101ADAD892 /* UIColor+Utilities.swift */,
-				55D688BA080FF596F4BA556880C0D12E /* Support Files */,
-			);
-			name = ChromaColorPicker;
-			path = ChromaColorPicker;
-			sourceTree = "<group>";
-		};
-		4DEC7A050EEC647F28508C190E2F5430 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				479A97DD6AC47ABE9BD1BDDCFE7CBD67 /* ChromaColorPicker */,
+				DF281646EB70A2F0B07BD0E74D50A15F /* SwiftyButton */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		55D688BA080FF596F4BA556880C0D12E /* Support Files */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B347D8A3C3157F850CC82E4C27252281 /* ChromaColorPicker.modulemap */,
-				A21CD772EDC8CC93A011BC5D447476E3 /* ChromaColorPicker.xcconfig */,
-				BA92F33DFC6DF17B823161597138EF4E /* ChromaColorPicker-dummy.m */,
-				DB607B19D826E3C9C80523B3CFE58A51 /* ChromaColorPicker-prefix.pch */,
-				01D916C83567E315231B4CB798F2A64A /* ChromaColorPicker-umbrella.h */,
-				A0D94053508D5642721C6E67B7A3453E /* Info.plist */,
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/ChromaColorPicker";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				4DEC7A050EEC647F28508C190E2F5430 /* Pods */,
-				46FCBED1B16875636E8224C0190D94BA /* Products */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				40A9785EEB3D5547931497F1118CE0C7 /* Pods */,
+				84C9667B902C3DB230FE7CC819F80252 /* Products */,
 				7F2D1D50DD2F2882F82F13FFC30CE92B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -166,78 +155,83 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		84C9667B902C3DB230FE7CC819F80252 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				6FEE53634CBAB22F4BA42FBFE3BBAC9F /* Pods_fractalTreeIpad.framework */,
+				860C289DAC80205BBE60F9FDD3C6C351 /* SwiftyButton.framework */,
 			);
-			name = Frameworks;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		DF281646EB70A2F0B07BD0E74D50A15F /* SwiftyButton */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				5674BA5687974355A92026CA50B925D9 /* CustomPressableButton.swift */,
+				20DDC81025868EB2BCFE5B688D31DBE2 /* FlatButton.swift */,
+				242944BE6DF3E7E07DC9B44D47CA6DB4 /* PressableButton.swift */,
+				C38D8F9AC8F20043ED61C73A93968736 /* Utils.swift */,
+				0B9939530A6D1908FD556FD9B6D5BF5B /* Support Files */,
 			);
-			name = iOS;
+			name = SwiftyButton;
+			path = SwiftyButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1684D8BBBF9D83BDBFA8F1844E4503BD /* Headers */ = {
+		3122BF1DB9455A20B35A969E8B16721D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC5A224A33CEE7D59513FCAAA9B37EFB /* Pods-fractalTreeIpad-umbrella.h in Headers */,
+				E3C1687E7E28EE2D99C6AEF0BA75C556 /* Pods-fractalTreeIpad-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		537E3AFB9460117F3179E3397FA5A563 /* Headers */ = {
+		40538D1C28C741F7AB622BE8E8464B1E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CD7BD2F25A728501BCA2B2226271982 /* ChromaColorPicker-umbrella.h in Headers */,
-				2F6CDE3B2BA4DA36386508A448EB8C1D /* ChromaColorPicker.h in Headers */,
+				23DD8666E83365F85B06C52CA6BABF7A /* SwiftyButton-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		32753E520E8C3191A640B6A27CF6F331 /* Pods-fractalTreeIpad */ = {
+		9135901B6143CF226320BCC9058E895D /* Pods-fractalTreeIpad */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2EFF8969E5BC0DCA80457DDF304C7557 /* Build configuration list for PBXNativeTarget "Pods-fractalTreeIpad" */;
+			buildConfigurationList = 3B30378E28CD3C1BED486C25D9F67EA8 /* Build configuration list for PBXNativeTarget "Pods-fractalTreeIpad" */;
 			buildPhases = (
-				7248E21842B5C44632B9F1FF0EB5F259 /* Sources */,
-				0099179A40B6668BD4CD0675B3DE3D0C /* Frameworks */,
-				1684D8BBBF9D83BDBFA8F1844E4503BD /* Headers */,
+				130F5311EF671E70CE6014ECCB789024 /* Sources */,
+				80953151C71DDE2B6516300BCB49C43D /* Frameworks */,
+				3122BF1DB9455A20B35A969E8B16721D /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				29A9F44CA90DFAB002FA117AACB00B30 /* PBXTargetDependency */,
+				B808146906EFE29A0AEFC99D4E6E55B5 /* PBXTargetDependency */,
 			);
 			name = "Pods-fractalTreeIpad";
 			productName = "Pods-fractalTreeIpad";
-			productReference = 8F327382D5C19717F072D601772ACB59 /* Pods_fractalTreeIpad.framework */;
+			productReference = 6FEE53634CBAB22F4BA42FBFE3BBAC9F /* Pods_fractalTreeIpad.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		99AA48135ECB557858428F797600458F /* ChromaColorPicker */ = {
+		9BF6E1FF2E5C773CAAFE45520AF622D1 /* SwiftyButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 543A042E3FD27E013465D142854479E1 /* Build configuration list for PBXNativeTarget "ChromaColorPicker" */;
+			buildConfigurationList = CBE9BB9A9AF3CC64BC8CF82DB810B4B1 /* Build configuration list for PBXNativeTarget "SwiftyButton" */;
 			buildPhases = (
-				F57AD227BCEA188ED1CDF943F7DADE5E /* Sources */,
-				E4C778F22C161741FB18E99032D63B84 /* Frameworks */,
-				537E3AFB9460117F3179E3397FA5A563 /* Headers */,
+				70CA2D19E1C7B86F9A6458546F9FB866 /* Sources */,
+				3303BB5038AD108F232CC9A0F3FD1CD3 /* Frameworks */,
+				40538D1C28C741F7AB622BE8E8464B1E /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ChromaColorPicker;
-			productName = ChromaColorPicker;
-			productReference = 46CE58234D42023BB4911AA51E785F30 /* ChromaColorPicker.framework */;
+			name = SwiftyButton;
+			productName = SwiftyButton;
+			productReference = 860C289DAC80205BBE60F9FDD3C6C351 /* SwiftyButton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -257,54 +251,52 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 46FCBED1B16875636E8224C0190D94BA /* Products */;
+			productRefGroup = 84C9667B902C3DB230FE7CC819F80252 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				99AA48135ECB557858428F797600458F /* ChromaColorPicker */,
-				32753E520E8C3191A640B6A27CF6F331 /* Pods-fractalTreeIpad */,
+				9135901B6143CF226320BCC9058E895D /* Pods-fractalTreeIpad */,
+				9BF6E1FF2E5C773CAAFE45520AF622D1 /* SwiftyButton */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7248E21842B5C44632B9F1FF0EB5F259 /* Sources */ = {
+		130F5311EF671E70CE6014ECCB789024 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E96B05B712D245D85DC3D2CAE4FF616 /* Pods-fractalTreeIpad-dummy.m in Sources */,
+				918BAD34B52EB6D6A203F312C8B50E0E /* Pods-fractalTreeIpad-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F57AD227BCEA188ED1CDF943F7DADE5E /* Sources */ = {
+		70CA2D19E1C7B86F9A6458546F9FB866 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46BE6075A78FD94B44FA92245C2486A4 /* ChromaAddButton.swift in Sources */,
-				40035A7E409B83DCFF7FEB781C2EED00 /* ChromaColorPicker-dummy.m in Sources */,
-				CF264CDB3100B4C274326F95F32BC88B /* ChromaColorPicker.swift in Sources */,
-				EB82E7DA872E98A1B0B1F66C7CE15702 /* ChromaHandle.swift in Sources */,
-				FB24018F9DFDC79925597D4878E12FD4 /* ChromaShadeSlider.swift in Sources */,
-				92F8161F4E07A53E57E3EB2E1FA62238 /* ColorModeToggleButton.swift in Sources */,
-				8C81A1CEF8720A2EEE2BE86779865157 /* UIColor+Utilities.swift in Sources */,
+				E8E606F26C2DED47643D39F936B63C00 /* CustomPressableButton.swift in Sources */,
+				F00498AB8F5508CF3C1AA76588D13260 /* FlatButton.swift in Sources */,
+				9251AB3B7CBC8848C3865EEA80C13E77 /* PressableButton.swift in Sources */,
+				2ABD913E9E71C0B2B985A7583B778E12 /* SwiftyButton-dummy.m in Sources */,
+				486DE053366E633BBE11C9B8AAECDBB5 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		29A9F44CA90DFAB002FA117AACB00B30 /* PBXTargetDependency */ = {
+		B808146906EFE29A0AEFC99D4E6E55B5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ChromaColorPicker;
-			target = 99AA48135ECB557858428F797600458F /* ChromaColorPicker */;
-			targetProxy = 1B45C9A0DDAA49235DAAD8A664F5DE3F /* PBXContainerItemProxy */;
+			name = SwiftyButton;
+			target = 9BF6E1FF2E5C773CAAFE45520AF622D1 /* SwiftyButton */;
+			targetProxy = A19C57BFA9E97ACDF2A84FB876CB9C8A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		206EFE5129D09FFB6113AC2563BBE1EC /* Release */ = {
+		043E99068C5BE7EC9E13775BD128AA90 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A21CD772EDC8CC93A011BC5D447476E3 /* ChromaColorPicker.xcconfig */;
+			baseConfigurationReference = C32D2E916AFF74D75857FC80189DC21A /* SwiftyButton.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -315,24 +307,91 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ChromaColorPicker/ChromaColorPicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ChromaColorPicker/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyButton/SwiftyButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyButton/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ChromaColorPicker/ChromaColorPicker.modulemap";
-				PRODUCT_NAME = ChromaColorPicker;
+				MODULEMAP_FILE = "Target Support Files/SwiftyButton/SwiftyButton.modulemap";
+				PRODUCT_NAME = SwiftyButton;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1ECBB439A10C985051254ABB8900F99C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C084F900D4C18A0673566FD55ED1274 /* Pods-fractalTreeIpad.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-fractalTreeIpad/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-fractalTreeIpad/Pods-fractalTreeIpad.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_fractalTreeIpad;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		37E44078B8EAA3319F6415CC46AA5576 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7062B694FD195E4E7511EEFDCD4D611 /* Pods-fractalTreeIpad.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-fractalTreeIpad/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-fractalTreeIpad/Pods-fractalTreeIpad.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_fractalTreeIpad;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		39C5BC78A31CDE101068C530CAC7FA0F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -394,71 +453,6 @@
 			};
 			name = Debug;
 		};
-		3D78313E5699AC0C441A5291215BC17E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C084F900D4C18A0673566FD55ED1274 /* Pods-fractalTreeIpad.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-fractalTreeIpad/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-fractalTreeIpad/Pods-fractalTreeIpad.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_fractalTreeIpad;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4FE9CCD48174E19715DFA0C4E1C03274 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A21CD772EDC8CC93A011BC5D447476E3 /* ChromaColorPicker.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ChromaColorPicker/ChromaColorPicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ChromaColorPicker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ChromaColorPicker/ChromaColorPicker.modulemap";
-				PRODUCT_NAME = ChromaColorPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -514,9 +508,9 @@
 			};
 			name = Release;
 		};
-		B4CF37E881D4D1564D7B558A76B1D853 /* Debug */ = {
+		C0623261EBD2D13C16B3146E42CBECCD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7062B694FD195E4E7511EEFDCD4D611 /* Pods-fractalTreeIpad.debug.xcconfig */;
+			baseConfigurationReference = C32D2E916AFF74D75857FC80189DC21A /* SwiftyButton.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -527,26 +521,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-fractalTreeIpad/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyButton/SwiftyButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyButton/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-fractalTreeIpad/Pods-fractalTreeIpad.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_fractalTreeIpad;
+				MODULEMAP_FILE = "Target Support Files/SwiftyButton/SwiftyButton.modulemap";
+				PRODUCT_NAME = SwiftyButton;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -560,20 +552,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2EFF8969E5BC0DCA80457DDF304C7557 /* Build configuration list for PBXNativeTarget "Pods-fractalTreeIpad" */ = {
+		3B30378E28CD3C1BED486C25D9F67EA8 /* Build configuration list for PBXNativeTarget "Pods-fractalTreeIpad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4CF37E881D4D1564D7B558A76B1D853 /* Debug */,
-				3D78313E5699AC0C441A5291215BC17E /* Release */,
+				37E44078B8EAA3319F6415CC46AA5576 /* Debug */,
+				1ECBB439A10C985051254ABB8900F99C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		543A042E3FD27E013465D142854479E1 /* Build configuration list for PBXNativeTarget "ChromaColorPicker" */ = {
+		CBE9BB9A9AF3CC64BC8CF82DB810B4B1 /* Build configuration list for PBXNativeTarget "SwiftyButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4FE9CCD48174E19715DFA0C4E1C03274 /* Debug */,
-				206EFE5129D09FFB6113AC2563BBE1EC /* Release */,
+				043E99068C5BE7EC9E13775BD128AA90 /* Debug */,
+				C0623261EBD2D13C16B3146E42CBECCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
